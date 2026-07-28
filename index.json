@@ -1,8 +1,7 @@
 {
     "recipes": {
         "chrisdev/symfony-quality-cockpit": [
-            "0.1",
-            "dev-main"
+            "1.0"
         ],
         "chrisdev/ux-components": [
             "dev-main"
