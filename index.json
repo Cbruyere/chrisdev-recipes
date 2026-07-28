@@ -5,8 +5,8 @@
     "branch": "main",
     "is_contrib": true,
     "_links": {
-        "repository": "github.com/chrisdev/symfony-quality-recipes",
-        "origin_template": "{package}:{version}@github.com/chrisdev/symfony-quality-recipes:main",
-        "recipe_template": "https://raw.githubusercontent.com/chrisdev/symfony-quality-recipes/main/{package_dotted}.{version}.json"
+        "repository": "github.com/chrisdev/chrisdev_recipes",
+        "origin_template": "{package}:{version}@github.com/chrisdev/chrisdev_recipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/chrisdev/chrisdev_recipes/main/{package_dotted}.{version}.json"
     }
 }

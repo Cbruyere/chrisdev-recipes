@@ -1,6 +1,6 @@
 # Chrisdev Symfony Flex recipes
 
-Symfony Flex recipes for Chrisdev packages.
+Central Symfony Flex recipes repository for Chrisdev packages.
 
 ## Included recipes
 
