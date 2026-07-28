@@ -16,5 +16,6 @@
         "",
         "  import the bundle controllers from:",
         "  vendor/chrisdev/symfony-quality-cockpit/assets/controllers/"
-    ]
+    ],
+    "ref": "9c0a736d5d13cd861f5dfff953f9a847b03ae373"
 }

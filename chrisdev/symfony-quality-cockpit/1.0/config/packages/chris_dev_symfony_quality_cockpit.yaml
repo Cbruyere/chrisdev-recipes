@@ -11,7 +11,7 @@ quality_cockpit:
             degraded: 50
         infection:
             excellent: 100
-            very_good: 95
+            very_good: 90
             good: 85
             warning: 70
             degraded: 60
