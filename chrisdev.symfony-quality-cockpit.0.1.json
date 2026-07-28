@@ -1,0 +1,50 @@
+{
+    "manifests": {
+        "chrisdev/symfony-quality-cockpit": {
+            "manifest": {
+                "bundles": {
+                    "Chrisdev\\QualityCockpit\\QualityCockpitBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "post-install-output": [
+                    "<bg=blue;fg=white> Quality Cockpit </>",
+                    "",
+                    "  The bundle is enabled and its routes/configuration were installed.",
+                    "  Add these paths to your frontend build so Tailwind and Stimulus include the bundle:",
+                    "",
+                    "  @source \"../../vendor/chrisdev/symfony-quality-cockpit/templates/**/*.twig\";",
+                    "  @source \"../../vendor/chrisdev/symfony-quality-cockpit/src/**/*.php\";",
+                    "",
+                    "  import the bundle controllers from:",
+                    "  vendor/chrisdev/symfony-quality-cockpit/assets/controllers/"
+                ]
+            },
+            "files": {
+                "config/packages/chris_dev_symfony_quality_cockpit.yaml": {
+                    "contents": [
+                        "quality_cockpit:",
+                        "    enabled: true",
+                        "    route_prefix: '/_quality'",
+                        "    reports:",
+                        "        base_directory: '%kernel.project_dir%/var/reports'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/quality_cockpit.yaml": {
+                    "contents": [
+                        "quality_cockpit:",
+                        "    resource: '@QualityCockpitBundle/config/routes.php'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "f0b2d8c4a7e9431bbd3b2f9f87a4c6e1d5b8a902"
+        }
+    }
+}
