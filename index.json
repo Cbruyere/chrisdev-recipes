@@ -13,6 +13,6 @@
     "_links": {
         "repository": "github.com/Cbruyere/chrisdev-recipes",
         "origin_template": "{package}:{version}@github.com/Cbruyere/chrisdev-recipes:main",
-        "recipe_template": "https://raw.githubusercontent.com/Cbruyere/chrisdev-recipes/main/{package}/{version}/manifest.json"
+        "recipe_template": "https://api.github.com/repos/Cbruyere/chrisdev-recipes/contents/{package}/{version}/manifest.json?ref=main"
     }
 }
