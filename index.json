@@ -11,8 +11,8 @@
     "branch": "main",
     "is_contrib": true,
     "_links": {
-        "repository": "github.com/chrisdev/chrisdev-recipes",
-        "origin_template": "{package}:{version}@github.com/chrisdev/chrisdev-recipes:main",
-        "recipe_template": "https://raw.githubusercontent.com/chrisdev/chrisdev-recipes/main/{package}/{version}/manifest.json"
+        "repository": "github.com/Cbruyere/chrisdev-recipes",
+        "origin_template": "{package}:{version}@github.com/Cbruyere/chrisdev-recipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/Cbruyere/chrisdev-recipes/main/{package}/{version}/manifest.json"
     }
 }
