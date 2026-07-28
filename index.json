@@ -1,17 +1,23 @@
 {
+    "aliases": [],
     "recipes": {
         "chrisdev/symfony-quality-cockpit": [
             "1.0"
         ],
         "chrisdev/ux-components": [
-            "dev-main"
+            "1.0"
         ]
     },
+    "recipe-conflicts": [],
+    "versions": [],
     "branch": "main",
-    "is_contrib": true,
+    "is_contrib": false,
     "_links": {
-        "repository": "github.com/Cbruyere/chrisdev-recipes",
-        "origin_template": "{package}:{version}@github.com/Cbruyere/chrisdev-recipes:main",
-        "recipe_template": "https://api.github.com/repos/Cbruyere/chrisdev-recipes/contents/{package_dotted}.{version}.json"
+        "repository": "github.com/Cbruyere/chrisdev_recipes",
+        "origin_template": "{package}:{version}@github.com/Cbruyere/chrisdev_recipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/Cbruyere/chrisdev_recipes/flex/main/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/Cbruyere/chrisdev_recipes/flex/main/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
     }
 }

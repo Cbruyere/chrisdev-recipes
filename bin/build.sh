@@ -16,12 +16,14 @@ fi
 rm -rf "$OUTPUT_DIR"
 mkdir -p "$OUTPUT_DIR"
 
-git ls-tree HEAD '*/*/*' \
+git ls-tree HEAD */*/* \
     | "$CHECKER_DIR/run" generate:flex-endpoint \
-        Cbruyere/chrisdev-recipes \
+        Cbruyere/chrisdev_recipes \
         main \
         flex/main \
         "$OUTPUT_DIR"
+
+
 
 echo
 echo "Endpoint Flex généré dans : $OUTPUT_DIR"
