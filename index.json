@@ -1,12 +1,13 @@
 {
     "recipes": {
-        "chrisdev/symfony-quality-cockpit": ["dev-main"]
+        "chrisdev/symfony-quality-cockpit": ["dev-main"],
+        "chrisdev/ux-components": ["dev-main"]
     },
     "branch": "main",
     "is_contrib": true,
     "_links": {
         "repository": "github.com/chrisdev/chrisdev_recipes",
         "origin_template": "{package}:{version}@github.com/chrisdev/chrisdev_recipes:main",
-        "recipe_template": "https://raw.githubusercontent.com/chrisdev/chrisdev_recipes/main/{package_dotted}.{version}.json"
+        "recipe_template": "https://raw.githubusercontent.com/chrisdev/chrisdev_recipes/main/{package}/{version}/manifest.json"
     }
 }

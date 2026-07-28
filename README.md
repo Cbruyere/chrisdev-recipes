@@ -2,6 +2,15 @@
 
 Central Symfony Flex recipes repository for Chrisdev packages.
 
+Recipes follow the Symfony Flex convention:
+
+```text
+vendor/
+    package/
+        version/
+            manifest.json
+```
+
 ## Included recipes
 
 ### `chrisdev/symfony-quality-cockpit`
@@ -14,6 +23,10 @@ The `dev-main` recipe:
 - prints the required Tailwind and Stimulus frontend integration steps.
 
 The recipe intentionally does not overwrite the host application's frontend entrypoints.
+
+### `chrisdev/ux-components`
+
+The `dev-main` recipe enables `ChrisDev\UxComponents\ChrisDevUxComponentsBundle`.
 
 ## Testing from a local Symfony application
 
