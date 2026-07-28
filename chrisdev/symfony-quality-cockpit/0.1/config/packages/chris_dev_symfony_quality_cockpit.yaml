@@ -3,3 +3,22 @@ quality_cockpit:
     route_prefix: '/_quality'
     reports:
         base_directory: '%kernel.project_dir%/var/reports'
+    thresholds:
+        phpunit:
+            excellent: 90
+            good: 80
+            warning: 65
+            degraded: 50
+        infection:
+            excellent: 100
+            very_good: 95
+            good: 85
+            warning: 70
+            degraded: 60
+        phpmetrics:
+            warning_classes: 1
+            degraded_classes: 5
+            critical_classes: 15
+    freshness:
+        warning_after_hours: 24
+        stale_after_hours: 72
