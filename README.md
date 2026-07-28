@@ -32,7 +32,7 @@ path repository, then require the bundle:
     "extra": {
         "symfony": {
             "endpoint": [
-                "file:///absolute/path/to/symfony-quality-recipes/index.json",
+                "file:///absolute/path/to/chrisdev_recipes/index.json",
                 "flex://defaults"
             ]
         }
