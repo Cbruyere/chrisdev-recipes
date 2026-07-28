@@ -1,6 +1,6 @@
 quality_cockpit:
     enabled: true
-    route_prefix: '/_quality'
+    route_prefix: '/quality'
     reports:
         base_directory: '%kernel.project_dir%/var/reports'
     thresholds:
